@@ -2,16 +2,16 @@ public class Solve {
 
     public static void main(String[] args) {
         double x=10;
-        double sqx=Math.sqrt(x);
+        double sqx=Math.pow(x,2);
 
-        double y=12.4;
-        double sqy=Math.sqrt(y);
+        double y=10;
+        double sqy=Math.pow(y,2);
 
-double z=56.78;
+double z=10;
+double absz=Math.abs(z);
 
-
-                double sum=Math.cbrt(sqx+sqy-z);
-        System.out.println("sum = " + sum);
+                double res=Math.cbrt(sqx+sqy-absz);
+        System.out.println("sum = " + res);
 
 
     }
